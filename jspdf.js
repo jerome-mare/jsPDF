@@ -1042,16 +1042,16 @@ var jsPDF = (function(global) {
         k = 1;
         break;
       case 'mm':
-        k = 72 / 25.4000508;
+        k = 300 / 25.4000508;
         break;
       case 'cm':
-        k = 72 / 2.54000508;
+        k = 300 / 2.54000508;
         break;
       case 'in':
-        k = 72;
+        k = 300;
         break;
       case 'px':
-        k = 96 / 72;
+        k = 96 / 300;
         break;
       case 'pc':
         k = 12;
